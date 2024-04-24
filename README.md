@@ -19,3 +19,11 @@ Let's deploy thirdweb Engine locally in easiest way possible. This repository is
 3. Start Docker on your local machine.
 4. Run `npm run start` to deploy the engine locally, wait for it to finish.
 5. Visit `http://localhost:3005` in your browser to view the engine, that's it!
+
+For detailed guide, visit [here](https://support.thirdweb.com/infrastructure/eRgkLPBdL1WJJLzAbuWrPZ/how-to-deploy-thirdweb-engine-to-your-local-machine/nhgkjfQ7S9b6Hbe1dp9uuh).
+
+## Get Help
+
+- [Documentation](https://portal.thirdweb.com)
+- [Submit a ticket](https://support.thirdweb.com)
+- [Join Discord](https://discord.gg/thirdweb)
