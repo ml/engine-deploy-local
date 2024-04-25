@@ -12,10 +12,6 @@ services:
     networks:
       - default
     deploy:
-      resources:
-        limits:
-          cpus: "2"
-          memory: 2G
       restart_policy:
         condition: on-failure
 
@@ -30,10 +26,6 @@ services:
     depends_on:
       - postgres
     deploy:
-      resources:
-        limits:
-          cpus: "1"
-          memory: 1G
       restart_policy:
         condition: on-failure
 volumes:
