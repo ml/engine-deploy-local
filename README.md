@@ -3,7 +3,7 @@
 Let's deploy thirdweb Engine locally in easiest way possible. This repository is maintained by thirdweb community team.
 
 > [!WARNING]
-> Use this for demo / preview purposes only. This is not recommended for production use. If you wanna use thirdweb Engine in production, try [cloud-hosted version](https://thirdweb.com/dashboard/engine?requestCloudHosted) or deploy a [self-hosted version](https://blog.warengonzaga.com/how-to-deploy-a-self-hosted-thirdweb-engine-on-railway-in-less-than-3-minutes).
+> Use this for demo / preview purposes only. This is not recommended for production use. If you wanna use thirdweb Engine in production, try [cloud-hosted version](https://thirdweb.com/dashboard/engine?requestCloudHosted) or deploy a [self-hosted version](https://support.thirdweb.com/infrastructure/eRgkLPBdL1WJJLzAbuWrPZ/how-to-deploy-your-self-hosted-thirdweb-engine-on-the-railway/d97FnFt8e926FqniTaYxfD).
 
 ## Requirements
 
