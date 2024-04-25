@@ -22,6 +22,9 @@ Let's deploy thirdweb Engine locally in easiest way possible. This repository is
 
 For detailed guide, visit [here](https://support.thirdweb.com/infrastructure/eRgkLPBdL1WJJLzAbuWrPZ/how-to-deploy-thirdweb-engine-to-your-local-machine/nhgkjfQ7S9b6Hbe1dp9uuh).
 
+> [!NOTE]
+> We recommend to use the versioned image instead of `latest` tag in the `docker-compose.yml` file. You can find the versioned image list in the [Docker Hub](https://hub.docker.com/r/thirdweb/engine).
+
 ## Get Help
 
 - [Documentation](https://portal.thirdweb.com)
