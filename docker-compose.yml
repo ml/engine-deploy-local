@@ -15,18 +15,31 @@ services:
       restart_policy:
         condition: on-failure
 
+  redis:
+    image: redis:7.2.4
+    ports:
+      - "6379:6379"
+    depends_on:
+      - postgres
+    deploy:
+      restart_policy:
+        condition: on-failure
+
   thirdweb:
-    image: thirdweb/engine:v0.9.2 # always use the versioned image instead of latest, see readme for more info
+    image: thirdweb/engine:v1.0.0 # always use the versioned image instead of latest, see readme for more info
     environment:
       - POSTGRES_CONNECTION_URL=postgresql://postgres:postgres@host.docker.internal:5432/postgres?sslmode=disable&connection_limit=10
+      - REDIS_URL=redis://host.docker.internal:6379/0
     env_file:
       - ./.env
     ports:
       - "3005:3005"
     depends_on:
       - postgres
+      - redis
     deploy:
       restart_policy:
         condition: on-failure
+
 volumes:
   db_data:
