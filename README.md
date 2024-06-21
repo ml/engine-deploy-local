@@ -10,6 +10,7 @@ Let's deploy thirdweb Engine locally in easiest way possible. This repository is
 - [Docker](https://docs.docker.com/get-docker/)
 - [NodeJS](https://nodejs.org/en/download/)
 - [Postgres](https://postgresql.org/download/) (only supports v14+)
+- [Redis](https://redis.io/downloads/) (only supports v7.2.4+)
 - [thirdweb API secret key](https://thirdweb.com/dashboard/api-keys)
 - [Wallet address](https://portal.thirdweb.com/glossary/wallet)
 
