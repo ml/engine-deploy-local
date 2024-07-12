@@ -26,7 +26,7 @@ services:
         condition: on-failure
 
   thirdweb:
-    image: thirdweb/engine:v1.0.0 # always use the versioned image instead of latest, see readme for more info
+    image: thirdweb/engine:v1.0.5 # always use the versioned image instead of latest, see readme for more info
     environment:
       - POSTGRES_CONNECTION_URL=postgresql://postgres:postgres@host.docker.internal:5432/postgres?sslmode=disable&connection_limit=10
       - REDIS_URL=redis://host.docker.internal:6379
