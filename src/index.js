@@ -1,5 +1,5 @@
-const shell = require('shelljs');
-const fs = require('fs');
+import shell from 'shelljs';
+import fs from 'fs';
 
 // Check if .env file exists
 if (!fs.existsSync('.env')) {
@@ -7,5 +7,4 @@ if (!fs.existsSync('.env')) {
   shell.cp('.env.example', '.env');
 }
 
-// Execute npm run start
-shell.exec('npm run deploy');
+shell.exec('npm run deploy'); // Run the deploy script with npm-run-all

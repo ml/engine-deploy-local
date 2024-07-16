@@ -17,10 +17,13 @@ Let's deploy thirdweb Engine locally in easiest way possible. This repository is
 ## Usage
 
 1. Clone the repository.
-2. Configure the `.env.example` file with your API secret key and wallet address.
+2. Configure the `.env.example` file with your API secret key, wallet address, and ngrok auth token.
 3. Start Docker on your local machine.
 4. Run `npm run start` to deploy the engine locally, wait for it to finish.
-5. Visit `http://localhost:3005` in your browser to view the engine, that's it!
+5. A new tab will open in your browser if you provided ngrok auth token in the `.env` file.
+   - This will be your ngrok URL to access the engine from anywhere. You can use this URL to import it to your thirdweb dashboard.
+6. If not, visit `https://localhost:3005` in your browser.
+7. That's it!
 
 For detailed guide, visit [here](https://support.thirdweb.com/infrastructure/eRgkLPBdL1WJJLzAbuWrPZ/how-to-deploy-thirdweb-engine-to-your-local-machine/nhgkjfQ7S9b6Hbe1dp9uuh).
 
