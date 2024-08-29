@@ -7,7 +7,7 @@ import https from "https";
 
 dotenv.config();
 
-const auth = process.env.NGROK_AUTH_TOKEN;
+const auth = process.env.NGROK_AUTHTOKEN;
 
 (async function() {
   try {
